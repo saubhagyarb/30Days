@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">30 Days of Wellness</string>
+
+    <!-- Day 1 -->
+    <string name="day_one">Day One</string>
+    <string name="day_1_title">Spend 15 minutes outdoors</string>
+    <string name="day_1_description">Put some time on your calendar to take a walk outside or maybe even take a meeting while you’re strolling through your neighborhood.</string>
+
+    <!-- Day 2 -->
+    <string name="day_two">Day Two</string>
+    <string name="day_2_title">Listen to a new podcast or audiobook</string>
+    <string name="day_2_description">Listen to a podcast and explore a topic you’ve been itching to learn more about or discover a completely new topic or genre of podcast content.</string>
+
+    <!-- Day 3 -->
+    <string name="day_three">Day Three</string>
+    <string name="day_3_title">Practice mindful breathing</string>
+    <string name="day_3_description">Spend a few minutes focusing on your breath. Inhale deeply through your nose, hold for a few seconds, and exhale slowly through your mouth.</string>
+
+    <!-- Day 4 -->
+    <string name="day_four">Day Four</string>
+    <string name="day_4_title">Write a gratitude list</string>
+    <string name="day_4_description">Take time to write down three things you\'re grateful for today. Reflect on these positive aspects of your life.</string>
+
+    <!-- Day 5 -->
+    <string name="day_five">Day Five</string>
+    <string name="day_5_title">Take a social media break</string>
+    <string name="day_5_description">Spend a day without social media. Use the time to connect with nature, read a book, or spend time with loved ones.</string>
+
+    <!-- Day 6 -->
+    <string name="day_six">Day Six</string>
+    <string name="day_6_title">Try a new healthy recipe</string>
+    <string name="day_6_description">Cook a meal using a new healthy recipe. Experiment with different ingredients and enjoy the process.</string>
+
+    <!-- Day 7 -->
+    <string name="day_seven">Day Seven</string>
+    <string name="day_7_title">Go for a short run or jog</string>
+    <string name="day_7_description">Put on your running shoes and go for a short run or jog in your neighborhood or a nearby park.</string>
+
+    <!-- Day 8 -->
+    <string name="day_eight">Day Eight</string>
+    <string name="day_8_title">Practice a hobby</string>
+    <string name="day_8_description">Take some time to engage in a hobby you enjoy, whether it\'s painting, playing an instrument, or crafting.</string>
+
+    <!-- Day 9 -->
+    <string name="day_nine">Day Nine</string>
+    <string name="day_9_title">Declutter a small space</string>
+    <string name="day_9_description">Choose a small area in your home, like a drawer or a shelf, and declutter it. Remove items you no longer need or use.</string>
+
+    <!-- Day 10 -->
+    <string name="day_ten">Day Ten</string>
+    <string name="day_10_title">Watch a documentary</string>
+    <string name="day_10_description">Find a documentary on a topic that interests you and spend time learning something new.</string>
+
+    <!-- Day 11 -->
+    <string name="day_eleven">Day Eleven</string>
+    <string name="day_11_title">Spend time in nature</string>
+    <string name="day_11_description">Take a walk in a nearby park or natural area. Breathe in the fresh air and enjoy the sights and sounds of nature.</string>
+
+    <!-- Day 12 -->
+    <string name="day_twelve">Day Twelve</string>
+    <string name="day_12_title">Try a yoga or stretching routine</string>
+    <string name="day_12_description">Follow a yoga or stretching routine to relax your body and mind.</string>
+
+    <!-- Day 13 -->
+    <string name="day_thirteen">Day Thirteen</string>
+    <string name="day_13_title">Read a book for 30 minutes</string>
+    <string name="day_13_description">Set aside 30 minutes to read a book of your choice. Get lost in the story or learn something new.</string>
+
+    <!-- Day 14 -->
+    <string name="day_fourteen">Day Fourteen</string>
+    <string name="day_14_title">Practice a random act of kindness</string>
+    <string name="day_14_description">Do something kind for someone else, whether it\'s a compliment, a small gift, or a helping hand.</string>
+
+    <!-- Day 15 -->
+    <string name="day_fifteen">Day Fifteen</string>
+    <string name="day_15_title">Try a guided meditation</string>
+    <string name="day_15_description">Listen to a guided meditation to help relax your mind and body.</string>
+
+    <!-- Day 16 -->
+    <string name="day_sixteen">Day Sixteen</string>
+    <string name="day_16_title">Drink 8 glasses of water</string>
+    <string name="day_16_description">Make it a goal to drink at least 8 glasses of water today. Staying hydrated is essential for your health.</string>
+
+    <!-- Day 17 -->
+    <string name="day_seventeen">Day Seventeen</string>
+    <string name="day_17_title">Unplug for an hour</string>
+    <string name="day_17_description">Turn off all your devices for an hour and enjoy some uninterrupted time for yourself.</string>
+
+    <!-- Day 18 -->
+    <string name="day_eighteen">Day Eighteen</string>
+    <string name="day_18_title">Take a mindful walk</string>
+    <string name="day_18_description">Go for a walk and pay attention to your surroundings. Notice the sights, sounds, and smells as you walk.</string>
+
+    <!-- Day 19 -->
+    <string name="day_nineteen">Day Nineteen</string>
+    <string name="day_19_title">Try a digital detox</string>
+    <string name="day_19_description">Spend the day away from screens as much as possible. Focus on offline activities.</string>
+
+    <!-- Day 20 -->
+    <string name="day_twenty">Day Twenty</string>
+    <string name="day_20_title">Write in a journal</string>
+    <string name="day_20_description">Spend some time writing in a journal. Reflect on your thoughts and feelings or write about your day.</string>
+
+    <!-- Day 21 -->
+    <string name="day_twentyone">Day Twenty-One</string>
+    <string name="day_21_title">Try a new physical activity</string>
+    <string name="day_21_description">Whether it\'s dancing, cycling, or swimming, try a new physical activity today.</string>
+
+    <!-- Day 22 -->
+    <string name="day_twentytwo">Day Twenty-Two</string>
+    <string name="day_22_title">Practice deep breathing exercises</string>
+    <string name="day_22_description">Spend a few minutes practicing deep breathing exercises to reduce stress and relax your mind.</string>
+
+    <!-- Day 23 -->
+    <string name="day_twentythree">Day Twenty-Three</string>
+    <string name="day_23_title">Cook a healthy meal</string>
+    <string name="day_23_description">Prepare a healthy meal with fresh ingredients. Enjoy the process of cooking and eating mindfully.</string>
+
+    <!-- Day 24 -->
+    <string name="day_twentyfour">Day Twenty-Four</string>
+    <string name="day_24_title">Spend time with a loved one</string>
+    <string name="day_24_description">Reach out to a friend or family member and spend quality time with them, whether in person or virtually.</string>
+
+    <!-- Day 25 -->
+    <string name="day_twentyfive">Day Twenty-Five</string>
+    <string name="day_25_title">Take a relaxing bath</string>
+    <string name="day_25_description">Run a warm bath, add some relaxing bath salts, and take time to unwind and relax.</string>
+
+    <!-- Day 26 -->
+    <string name="day_twentysix">Day Twenty-Six</string>
+    <string name="day_26_title">Try a new creative activity</string>
+    <string name="day_26_description">Engage in a creative activity you\'ve never tried before, like painting, writing, or playing an instrument.</string>
+
+    <!-- Day 27 -->
+    <string name="day_twentyseven">Day Twenty-Seven</string>
+    <string name="day_27_title">Practice positive affirmations</string>
+    <string name="day_27_description">Start your day by practicing positive affirmations. Speak kind and encouraging words to yourself.</string>
+
+    <!-- Day 28 -->
+    <string name="day_twentyeight">Day Twenty-Eight</string>
+    <string name="day_28_title">Plan a day trip</string>
+    <string name="day_28_description">Plan a day trip to a nearby location you\'ve never visited. Explore and enjoy the change of scenery.</string>
+
+    <!-- Day 29 -->
+    <string name="day_twentynine">Day Twenty-Nine</string>
+    <string name="day_29_title">Reflect on your goals</string>
+    <string name="day_29_description">Take some time to reflect on your personal goals. Are you on track? What can you do to achieve them?</string>
+
+    <!-- Day 30 -->
+    <string name="day_thirty">Day Thirty</string>
+    <string name="day_30_title">Celebrate your progress</string>
+    <string name="day_30_description">Celebrate all the progress you\'ve made over the past 30 days. Treat yourself to something special!</string>
+</resources>
