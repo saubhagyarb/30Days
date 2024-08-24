@@ -19,6 +19,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -55,17 +56,23 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun App(context: Context) {  // Accept the context in composable
+fun App(context: Context) {
     var selectedQuote by remember { mutableStateOf(randomQuote()) }
     var favoriteQuotes by remember { mutableStateOf(listOf<Data>()) }
 
     Scaffold(
         topBar = { AppTopBar() },
         floatingActionButton = {
-            FloatingActionButton(onClick = {
-                selectedQuote = randomQuote() // Refresh quote on button press
-            }) {
-                Image(painter = painterResource(id = R.drawable.refresh), contentDescription = "refresh")
+            FloatingActionButton(
+                onClick = {
+                    selectedQuote = randomQuote() // Refresh quote on button press
+                },
+                containerColor = MaterialTheme.colorScheme.primary  // Set the color same as buttons
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.refresh),
+                    contentDescription = "refresh"
+                )
             }
         }
     ) { paddingValues ->
@@ -76,7 +83,7 @@ fun App(context: Context) {  // Accept the context in composable
                     favoriteQuotes = favoriteQuotes + selectedQuote
                 },
                 onShareClick = {
-                    shareQuote(context, selectedQuote)  // Pass the context for sharing
+                    shareQuote(context, selectedQuote)
                 }
             )
         }
@@ -107,7 +114,6 @@ fun DaysCard(
                     )
                 )
         ) {
-//            Text(text = stringResource(id = data.day), style = MaterialTheme.typography.labelMedium)
             Text(text = stringResource(id = data.dayTitle), style = MaterialTheme.typography.bodyLarge)
             Image(
                 painter = painterResource(id = data.imageRes),
@@ -117,25 +123,38 @@ fun DaysCard(
             if (expanded) {
                 Text(text = stringResource(id = data.dayDescription), style = MaterialTheme.typography.bodyLarge)
                 Row {
-                    // Favorite button with icon
-                    Button(onClick = {
-                        isFavorite = !isFavorite  // Toggle favorite state
-                        onFavoriteClick()  // Trigger the favorite click action
-                    }) {
+                    Button(
+                        onClick = {
+                            isFavorite = !isFavorite
+                            onFavoriteClick()
+                        },
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = MaterialTheme.colorScheme.primary  // Match button color with FloatingActionButton
+                        )
+                    ) {
                         Image(
                             painter = painterResource(id = if (isFavorite) R.drawable.favorite_filled else R.drawable.favorite_unfilled),
                             contentDescription = if (isFavorite) "Unfavorite" else "Favorite"
                         )
                     }
                     Spacer(modifier = Modifier.width(8.dp))
-                    Button(onClick = onShareClick) {
-                        Image(painter = painterResource(id = R.drawable.share), contentDescription = "Share")
+                    Button(
+                        onClick = onShareClick,
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = MaterialTheme.colorScheme.primary  // Match button color
+                        )
+                    ) {
+                        Image(
+                            painter = painterResource(id = R.drawable.share),
+                            contentDescription = "Share"
+                        )
                     }
                 }
             }
         }
     }
 }
+
 
 
 fun randomQuote(): Data {
